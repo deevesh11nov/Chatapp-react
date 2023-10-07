@@ -1,0 +1,58 @@
+.message-content {
+  color: white;
+  min-width: 180px;
+  max-width: 600px;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.receive-message {
+  background-color: #222e35;
+  border: 2px solid #222e35;
+}
+
+.send-message {
+  background-color: #258b50;
+  border: 2px solid #258b50;
+}
+
+.message-arrow {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+}
+
+.receive-message-arrow {
+  background-color: #222e35;
+  left: 9px;
+  bottom: -14px;
+  transform: rotate(60deg);
+}
+
+.send-message-arrow {
+  background-color: #258b50;
+  right: 9px;
+  bottom: -14px;
+  transform: rotate(-60deg);
+}
+
+.message-info {
+  color: white;
+  font-size: 14px;
+}
+
+.message-info img {
+  margin-right: 10px;
+}
+
+.sender {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.sender img {
+  margin-left: 10px;
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "conversationId": "1",
+    "contactId": "1",
+    "messages": [
+      {
+        "id": "1",
+        "userId": "1",
+        "messageText": "Hello There!"
+      },
+      {
+        "id": "2",
+        "userId": "myUser",
+        "messageText": "Hello, How Are You!"
+      }
+    ]
+  },
+  {
+    "conversationId": "2",
+    "contactId": "3",
+    "messages": [
+      {
+        "id": "1",
+        "userId": "myUser",
+        "messageText": "Hello, How Are You!!"
+      },
+      {
+        "id": "2",
+        "userId": "myUser",
+        "messageText": "This is a text Message"
+      },
+      {
+        "id": "3",
+        "userId": "3",
+        "messageText": "Will get back to you shortly"
+      }
+    ]
+  }
+]

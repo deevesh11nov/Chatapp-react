@@ -1,0 +1,85 @@
+.message-container {
+  /* background: url("https://img.freepik.com/free-vector/abstract-pattern-design_1053-525.jpg?w=826&t=st=1688126673~exp=1688127273~hmac=30adc4a6b1a3fdc9086174e36bd846da27d775c8f2e24acc68addb801d63144a"); */
+
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+  background-color: #abd699;
+  width: 100%;
+  position: relative;
+}
+
+.message-bg {
+  /* z-index: 5; */
+  background: url("https://web.whatsapp.com/img/bg-chat-tile-dark_a4be512e7195b6b733d9110b408f075d.png");
+  overflow-y: scroll;
+}
+
+.message-container-info {
+  background-color:whitesmoke;
+  
+  padding: 15px;
+  /* border-bottom: 1px solid #222e35; */
+}
+
+.message-container-info img {
+  margin: 0px 15px;
+}
+
+.message-area {
+  padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+  margin-bottom: 80px;
+  margin-right: 20px;
+  /* max-height: 90vh; */
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  /* bottom: 0; */
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+}
+
+.message-input textarea {
+  resize: none;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  width: 100%;
+  height: 25px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  background-color: #2a3942;
+  border: 1px solid #2a3942;
+  outline: none;
+  color: #dcf1ff;
+  /* box-sizing: border-box; */
+}
+
+.message-input button {
+  background-color: transparent;
+  font-size: 35px;
+  border: none;
+  margin: 0px 12px;
+  color: rgb(8, 128, 226);
+}
+
+.message-input button:hover {
+  cursor: pointer;
+  color: rgb(57, 170, 47);
+}
+
+.message-input button:active {
+  color: rgb(54, 148, 46);
+}
